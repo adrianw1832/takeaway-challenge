@@ -25,6 +25,8 @@ RSpec
 
 Clone the repo and run IRB in terminal to play around.
 
+Run rspec in the terminal to run the tests.
+
 Instructions
 -------
 * Challenge time: Friday, the entire day + the weekend if you need it
