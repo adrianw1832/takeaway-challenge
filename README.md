@@ -1,10 +1,29 @@
-Takeaway Challenge
-==================
-+[![Build Status](https://travis-ci.org/adrianw1832/takeaway-challenge.svg)](https://travis-ci.org/adrianw1832/takeaway-challenge)
+##Takeaway Challenge
+[![Build Status](https://travis-ci.org/adrianw1832/takeaway-challenge.svg)](https://travis-ci.org/adrianw1832/takeaway-challenge)
 
-What I did
------------
-I split it into 3 classes: menu, order and the TwilioAPI. The code itself was quite simple and obvious but writing the tests, especially for twilio, was much harder. I am not actually sure what the best way is to go about it.
+This project is from the week 2 weekend challenge of the Makers Academy course.
+I split it into 3 classes: menu, order and the TwilioAPI class. The
+implementation of the code itself was quite simple and obvious but writing the
+tests for the twilio service, was harder. Learning how to use mocks properly was
+probably the biggest takeaway(pun not intended) of this challenge. Also, as an
+aside, it was important to learn not to leave tokens if possible on Github.
+
+##Challenges
+
+This is the first time we encountered and used an API. Setting it up was not
+really that difficult. The main difficulty was in creating a valid test and also
+mocking the API call so that a text message will not be sent everytime the test
+is run. Apart from that, it was pretty ok.
+
+##Technologies used
+
+Ruby
+
+RSpec
+
+##How to install
+
+Clone the repo and run IRB in terminal to play around.
 
 Instructions
 -------
